@@ -1,0 +1,7 @@
+### Jukebox ###
+# Ignore configuration files
+configuration/*.yaml
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/

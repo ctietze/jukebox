@@ -1,0 +1,12 @@
+###### Requirements without Version Specifiers ######`
+evdev
+Mopidy-Spotify
+python-systemd
+wheel
+
+###### Requirements with Version Specifiers ######`
+Mopidy ~= 3.1
+paho-mqtt ~= 1.5
+pymemcache ~= 3.4
+python-mpd2 ~= 3.0
+pyyaml ~= 5.4

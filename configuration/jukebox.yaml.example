@@ -1,0 +1,15 @@
+mpd:
+  host: localhost
+  port: 6600
+  startvolume: 50
+
+memcache:
+  host: 127.0.0.1
+  port: 11211
+
+controlcards:
+  pause: '9000001'  
+  clear: '9000002'  
+  shutdown: '9000003'
+  volume_up: '9000004'  
+  volume_down: '9000005'

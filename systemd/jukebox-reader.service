@@ -1,0 +1,13 @@
+[Unit]  
+Description=Jukebox RFID Reader Service
+After=network.target iptables.service firewalld.service
+
+[Service]
+User=pi
+Group=pi
+Restart=always
+WorkingDirectory=/home/pi/jukebox
+ExecStart=/home/pi/jukebox/jukebox_reader_daemon.py
+
+[Install]
+WantedBy=multi-user.target

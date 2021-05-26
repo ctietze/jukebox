@@ -1,0 +1,13 @@
+[Unit]  
+Description=Jukebox MQTT Consumer Service
+After=network.target iptables.service firewalld.service
+
+[Service]
+User=pi
+Group=pi
+Restart=always
+WorkingDirectory=/home/pi/jukebox
+ExecStart=/home/pi/jukebox/jukebox_mqtt_daemon.py
+
+[Install]
+WantedBy=multi-user.target
