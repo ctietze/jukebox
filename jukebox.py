@@ -53,7 +53,7 @@ class Jukebox:
 
         last_card = self.find_last_card()
         
-        if last_card == card:
+        if self.card_pause == card or last_card == card:
             self.play_pause()
         elif self.card_volume_up == card :
             self.volume(10)
